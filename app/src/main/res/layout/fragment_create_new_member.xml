@@ -1,0 +1,277 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragements.CreateNewMember">
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="16dp"
+    >
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/relativeLayout">
+
+
+        <Spinner
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mem_type_spinner"
+
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:drawSelectorOnTop="true"
+
+            android:entries="@array/mem_type"
+            android:prompt="@string/select_mem_type"
+
+
+            >
+
+        </Spinner>
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="55dp"
+
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/border"
+        android:layout_marginRight="10dp"
+        android:id="@+id/relativeLayout2">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint = "Full Name"
+            android:gravity="center"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:id="@+id/create_mem_name"
+            android:layout_centerVertical="true"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/relativeLayout3">
+
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint = "Date of Birth"
+            android:gravity="center"
+            android:background="@drawable/back"
+
+            android:ems="10"
+            android:id="@+id/create_mem_dob"
+
+            />
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/relativeLayout4">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint = "Address"
+            android:gravity="center"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:id="@+id/create_mem_addrs"
+            android:layout_centerVertical="true"
+
+            />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/relativeLayout5">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint = "Pincode"
+            android:gravity="center"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:id="@+id/create_mem_pincode"
+            android:layout_centerVertical="true"
+
+            />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:id="@+id/relativeLayout6"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textPersonName"
+        android:hint = "Mobile No."
+        android:gravity="center"
+        android:background="@drawable/back"
+        android:ems="10"
+        android:id="@+id/create_mem_mobile"
+        android:layout_centerVertical="true"
+
+        />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:id="@+id/relativeLayout7"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true" >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textPersonName"
+        android:hint = "Landline No."
+        android:gravity="center"
+        android:background="@drawable/back"
+        android:ems="10"
+        android:id="@+id/create_mem_Tele"
+        android:layout_centerVertical="true"
+
+        />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:id="@+id/relativeLayout8"
+        android:layout_below="@+id/relativeLayout7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:hint = "Email"
+            android:gravity="center"
+            android:background="@drawable/back"
+            android:ems="10"
+            android:id="@+id/create_mem_email"
+            android:layout_centerVertical="true"
+
+            />
+        </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/relativeLayout8"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/relativeLayout9">
+
+
+        <Spinner
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mem_gender_spinner"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:drawSelectorOnTop="true"
+
+            android:entries="@array/mem_gender"
+
+
+
+            >
+
+        </Spinner>
+
+
+    </RelativeLayout>
+
+
+
+        <Button style="@style/Widget.AppCompat.Button.Colored"
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/relativeLayout9"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:layout_marginBottom="10dp"
+            android:text="Add New Member"
+            android:id="@+id/add_mem_button"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

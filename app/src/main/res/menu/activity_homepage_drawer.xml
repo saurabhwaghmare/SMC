@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homepage"
+
+            android:title="Homepage" />
+        <item
+            android:id="@+id/nav_actions"
+
+            android:title="Actions" />
+        <item
+            android:id="@+id/nav_meeting"
+
+            android:title="Meetings" />
+        <item
+            android:id="@+id/nav_smc_mem"
+
+            android:title="SMC Members" />
+        <item
+            android:id="@+id/nav_myschools"
+
+            android:title="My schools" />
+        <item
+            android:id="@+id/nav_FAQ"
+
+            android:title="FAQs" />
+
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

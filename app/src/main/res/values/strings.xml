@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">SMC</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="titles">
+        <item>Fix</item>
+        <item>Tutorials</item>
+        <item>My Apps</item>
+        <item>OS Versions</item>
+        <item>Tools</item>
+        <item>About Us</item>
+    </string-array>
+    <integer-array name="titles1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="mem_type">
+        <item>Select Member Type</item>
+        <item>Principle</item>
+        <item>Parent</item>
+        <item>Parent(Vice Chairmen)</item>
+        <item>MLA Rep</item>
+        <item>Social Worker</item>
+
+
+    </string-array>
+    <string-array name="mem_gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+
+
+    </string-array>
+    <string-array name="action_type">
+        <item>Select Type</item>
+        <item>Male</item>
+        <item>Female</item>
+
+
+    </string-array>
+    <string name="select_mem_type">Select memeber type</string>
+    <string name="title_activity_job_description">JobDescriptionAc</string>
+
+    <string-array name="titles2">
+        <item>A. S. Senior Secondary School</item>
+        <item>Govt. Boys Secondary School</item>
+        <item>Payal Girls Schools</item>
+        <item>State Secondary School</item>
+        <item>State Primary School</item>
+        <item>V. K. Goyal Senior School</item>
+        <item>Saint Xaviers School</item>
+        <item>Mahatma Gandhi School</item>
+        <item>Great Indian School</item>
+    </string-array>
+
+    <string-array name="addr">
+        <item>Malviya Nagar</item>
+        <item>C. R. Park</item>
+        <item>Nehru Place</item>
+        <item>Green Park Extention</item>
+        <item>Hauz Khas</item>
+        <item>Sarvodaya Enclave</item>
+        <item>ITO</item>
+        <item>Rajiv Chowk</item>
+        <item>Dwaraka Sector 7</item>
+    </string-array>
+
+    <string-array name="meeting_number">
+        <item>SMC Meeting #1</item>
+        <item>SMC Meeting #2</item>
+        <item>SMC Meeting #3</item>
+        <item>SMC Meeting #4</item>
+        <item>SMC Meeting #5</item>
+        <item>SMC Meeting #6</item>
+        <item>SMC Meeting #7</item>
+        <item>SMC Meeting #8</item>
+        <item>SMC Meeting #9</item>
+    </string-array>
+
+    <string-array name="agendas">
+        <item>Water purification, hiring security guard, New textbook purchase, night lights adition, Workforce management, bathroom cleaning</item>
+        <item>Water purification, hiring security guard, New textbook purchase, night lights adition, Workforce management, bathroom cleaning</item>
+        <item>Water purification, hiring security guard, New textbook purchase, night lights adition, Workforce management, bathroom cleaning</item>
+        <item>Water purification, hiring security guard, New textbook purchase, night lights adition, Workforce management, bathroom cleaning</item>
+        <item>Water purification, hiring security guard, New textbook purchase, night lights adition, Workforce management, bathroom cleaning</item>
+        <item>Water purification, hiring security guard, New textbook purchase, night lights adition, Workforce management, bathroom cleaning</item>
+        <item>Water purification, hiring security guard, New textbook purchase, night lights adition, Workforce management, bathroom cleaning</item>
+        <item>Water purification, hiring security guard, New textbook purchase, night lights adition, Workforce management, bathroom cleaning</item>
+        <item>Water purification, hiring security guard, New textbook purchase, night lights adition, Workforce management, bathroom cleaning</item>
+    </string-array>
+    <string-array name="meeting_dates">
+        <item>30</item>
+        <item>15</item>
+        <item>25</item>
+        <item>31</item>
+        <item>5</item>
+        <item>11</item>
+        <item>19</item>
+        <item>30</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="meeting_months">
+        <item>Jan</item>
+        <item>Mar</item>
+        <item>Oct</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Dec</item>
+        <item>Jan</item>
+        <item>Mar</item>
+    </string-array>
+    <string-array name="meeting_years">
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2018</item>
+    </string-array>
+    <string-array name="name_of_persons">
+        <item>Akshat Pandey</item>
+        <item>Chaitanya Joshi</item>
+        <item>Pradeep Malhotra</item>
+        <item>Radhika Abrol</item>
+        <item>Rahul Tuteja</item>
+        <item>Tapan Singh</item>
+        <item>Pragnesh Jogadiya</item>
+        <item>Waghmare Saurabh Milind</item>
+        <item>Ram Singh Thakur</item>
+    </string-array>
+    <string-array name="designation_of_persons">
+        <item>Principal</item>
+        <item>Social Worker</item>
+        <item>MLA Representative</item>
+        <item>Parent(Vice Chairperson)</item>
+        <item>Teacher</item>
+        <item>Parent</item>
+        <item>Parent</item>
+        <item>Parent</item>
+        <item>Parent</item>
+    </string-array>
+    <string-array name="mobile_numbers">
+        <item>9876543210</item>
+        <item>9898989898</item>
+        <item>9797979797</item>
+        <item>9081726354</item>
+        <item>7553665533</item>
+        <item>7553877333</item>
+        <item>9999999999</item>
+        <item>7845120369</item>
+        <item>9001122334</item>
+    </string-array>
+    <string name="title_activity_create__meeting">Create_Meeting</string>
+    <string name="title_activity_edit__meeting">Edit_Meeting</string>
+    <string name="title_activity_attendance_new">Attendance_new</string>
+</resources>

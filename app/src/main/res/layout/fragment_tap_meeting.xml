@@ -1,0 +1,146 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.saurabh.smc.Tap_meeting">
+
+    <RelativeLayout
+        android:layout_width="165dp"
+        android:layout_height="75dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tap_on_meeting_date"
+        android:clickable="true">
+        <TextView
+            android:id="@+id/tap_on_meeting_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:text="Date:"
+            android:textSize="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tap_on_meeting_CLR_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="38dp"
+            android:text="CLR"
+            android:textSize="20dp"
+            android:textColor="#207550" />
+        <TextView
+            android:id="@+id/tap_on_meeting_date_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="38dp"
+            android:text="Pick"
+            android:textSize="20dp"
+            android:textColor="#207550" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="165dp"
+        android:layout_height="75dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="190dp"
+        android:id="@+id/tap_on_meeting_time"
+        android:clickable="true">
+        <TextView
+            android:id="@+id/tap_on_meeting_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:text="Time:"
+            android:textSize="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:id="@+id/tap_on_meeting_CLK_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="38dp"
+            android:text="CLK"
+            android:textSize="20dp"
+            android:textColor="#207550" />
+        <TextView
+            android:id="@+id/tap_on_meeting_time_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="38dp"
+            android:text="Pick"
+            android:textSize="20dp"
+            android:textColor="#207550" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/tap_on_meeting_date"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/tap_on_meeting_agenda"
+        android:clickable="true">
+        <TextView
+            android:id="@+id/tap_on_meeting_agenda_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:text="Agenda"
+            android:textSize="17dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/tap_on_meeting_agenda"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/tap_on_meeting_actions"
+        android:clickable="true">
+        <TextView
+            android:id="@+id/tap_on_meeting_actions_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:text="Actions"
+            android:textSize="17dp"/>
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Edit Meeting"
+        android:id="@+id/tap_on_meeting_edit_meeting_button"
+        android:background="@drawable/button_shape"
+        android:layout_below="@+id/tap_on_meeting_actions"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/attendanceContainer"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/border">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:id="@+id/attendance_name_of_person"
+            android:layout_marginTop="10dp"
+            android:text="Pragnesh Jogadiya"
+            android:layout_marginLeft="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Parent (Vice Chairperson)"
+            android:singleLine="true"
+            android:id="@+id/attendance_designation_of_person"
+            android:layout_below="@+id/attendance_name_of_person"
+            android:layout_alignLeft="@+id/attendance_name_of_person"
+            android:layout_marginTop="7dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="-"
+            android:singleLine="true"
+            android:id="@+id/dot_between_name_and_designation"
+            android:layout_alignTop="@+id/attendance_mobile_number_of_person"
+            android:layout_toRightOf="@+id/attendance_designation_of_person"
+            android:layout_marginLeft="7dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:text="9876543210"
+            android:layout_below="@+id/attendance_name_of_person"
+            android:id="@+id/attendance_mobile_number_of_person"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@+id/dot_between_name_and_designation"
+            android:layout_marginLeft="7dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme1"
+            android:id="@+id/attendance_checkBox"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
