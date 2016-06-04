@@ -15,6 +15,7 @@ import com.example.saurabh.smc.fragements.ActionFragment;
 import com.example.saurabh.smc.fragements.FAQ;
 import com.example.saurabh.smc.fragements.MemberFragment;
 import com.example.saurabh.smc.fragements.MyListFragment;
+import com.example.saurabh.smc.fragements.TestFragment;
 import com.example.saurabh.smc.fragements.homepage_tabs;
 
 public class HOMEPAGE extends AppCompatActivity
@@ -160,6 +161,17 @@ public class HOMEPAGE extends AppCompatActivity
            fragmentTransaction.commit();
 
         } else if (id == R.id.nav_settings) {
+
+           TestFragment fragment = new TestFragment();
+           /* Bundle b=new Bundle();
+            b.putInt("id",0);
+            fragment.setArguments(b);
+            //fragment.setArguments();*/
+
+           android.support.v4.app.FragmentTransaction fragmentTransaction =
+                   this.getSupportFragmentManager().beginTransaction();
+           fragmentTransaction.replace(R.id.frame_container,fragment);
+           fragmentTransaction.commit();
 
         } else if (id == R.id.nav_smc_mem) {
 

@@ -77,15 +77,22 @@
     </string-array>
 
     <string-array name="meeting_number">
-        <item>SMC Meeting #1</item>
-        <item>SMC Meeting #2</item>
-        <item>SMC Meeting #3</item>
-        <item>SMC Meeting #4</item>
-        <item>SMC Meeting #5</item>
-        <item>SMC Meeting #6</item>
-        <item>SMC Meeting #7</item>
-        <item>SMC Meeting #8</item>
-        <item>SMC Meeting #9</item>
+    <item>SMC Meeting #1</item>
+    <item>SMC Meeting #2</item>
+    <item>SMC Meeting #3</item>
+    <item>SMC Meeting #4</item>
+    <item>SMC Meeting #5</item>
+    <item>SMC Meeting #6</item>
+    <item>SMC Meeting #7</item>
+    <item>SMC Meeting #8</item>
+    <item>SMC Meeting #9</item>
+</string-array>
+
+
+    <string-array name="upcoming_meeting">
+        <item>Upcomming meetings</item>
+        <item>Past meetings</item>
+
     </string-array>
 
     <string-array name="agendas">
